@@ -1,25 +1,25 @@
 package com.edubridge.app1.model;
 
 public class Student {
-	private int employeeId;
-	private String employeeName;
-	private int employeeAddress;
+	private int studentId;
+	private String studentName;
+	private int studentAddress;
 	
 	//Constructor using field
-	public Student(int employeeId, String employeeName, int employeeAddress) {
+	public Student(int studentId, String studentName, int studentAddress) {
 		super();
-		this.employeeId = employeeId;
-		this.employeeName = employeeName;
-		this.employeeAddress = employeeAddress;
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.studentAddress = studentAddress;
 	}
 
-	
-	//ToString Method
+	//ToString method
 	@Override
 	public String toString() {
-		return "Student [employeeId=" + employeeId + ", employeeName=" + employeeName + ", employeeAddress="
-				+ employeeAddress + "]";
+		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", studentAddress=" + studentAddress
+				+ "]";
 	}
+	
 	
 	
 	
